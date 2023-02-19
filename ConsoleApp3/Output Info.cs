@@ -107,7 +107,7 @@ namespace LabTwo
             Console.WriteLine();
         }
     }
-    class Program
+    class OutputInformation
     {
         static void Main(string[] args)
         {
