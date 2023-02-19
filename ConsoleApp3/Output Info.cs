@@ -32,10 +32,10 @@ namespace LabTwo
             switch (choice)
             {
                 case "1":
-                    AddDocumentMenu();
+                    DocumentMenu();
                     break;
                 case "2":
-                    ListAllDocumentsMenu();
+                    ListOfAllDocuments();
                     break;
                 case "3":
                     Environment.Exit(0);
@@ -48,7 +48,7 @@ namespace LabTwo
             MenuOfVariants();
         }
 
-        private void AddDocumentMenu()
+        private void DocumentMenu()
         {
             Console.WriteLine("Имя документа:");
             string name = Console.ReadLine();
@@ -96,7 +96,7 @@ namespace LabTwo
             }
         }
 
-        private void ListAllDocumentsMenu()
+        private void ListOfAllDocuments()
         {
             Console.WriteLine("Список документов:");
 
