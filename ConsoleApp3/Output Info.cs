@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*********************
+ * Рексиус Анастасия * 
+ * ПИ-221            *
+ * 2 лаба            *
+ * *******************/
+using System;
 using System.Collections.Generic;
 using System.Reflection.Metadata;
 using System.Xml.Linq;
@@ -107,7 +112,7 @@ namespace LabTwo
             Console.WriteLine();
         }
     }
-    class Program
+    class OutputInformation
     {
         static void Main(string[] args)
         {
